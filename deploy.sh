@@ -17,7 +17,7 @@ fi
 #list file
 ls -Rl
 rm -rvf .git README.md 
-
+echo "Hello"
 #terraform
 echo "############################################"
 echo "Terraform initialization"
