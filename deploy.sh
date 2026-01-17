@@ -16,9 +16,16 @@ fi
 
 #list file
 ls -Rl
+rm -rvf .git README.md 
 
 #terraform
+echo "############################################"
+echo "Terraform initialization"
+echo "############################################"
 terraform init
+echo "############################################"
+echo "Terraform initialized"
+echo "############################################"
 terraform plan
 terraform apply -auto-approve
 
